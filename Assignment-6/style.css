@@ -1,0 +1,120 @@
+
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: navy;
+    align-items: center;
+}
+h1{
+    color:yellow;
+    text-align: center;
+    
+}
+
+.container {
+    width: 450px;
+}
+
+#inputField {
+    width: 370px;
+    height: 35px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 35px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    background: yellow;
+    cursor: pointer;
+}
+#addToDo:hover{
+
+  transform:scale(1.2);
+  }
+
+
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    font-weight: 1000;
+}
+
+.to-dos {
+margin-top:10px;
+  padding: 3px;
+    border: 2px solid yellow;
+    color: white;
+    font-size: x-large;
+    background-color :black;
+}
+
+
+.prop{
+    display: flex;
+    justify-content: right;
+}
+.prop i{
+    margin:0 auto;
+    cursor:pointer;
+    color: yellow;
+
+}
+
+.prop i:hover{
+    color:red;
+transform:scale(1.5);
+}
+
+
+
+.slide-out-elliptic-top-bck {
+	-webkit-animation: slide-out-elliptic-top-bck 0.7s ease-in both;
+	        animation: slide-out-elliptic-top-bck 0.7s ease-in both;
+}
+@-webkit-keyframes slide-out-elliptic-top-bck {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes slide-out-elliptic-top-bck {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+
+
+
+
